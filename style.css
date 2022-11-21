@@ -1,0 +1,331 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+.bg {
+    background: #e6e9f2;
+    width: 100%;
+    
+}
+
+.jobList__container {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.job__wrapper {
+  width: 100%;
+  margin-top: 1%;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow:1px 1px 2px 2px #e0e3eb;
+  padding: 1% 0.5%;
+  display: flex;
+
+}
+
+.job__img {
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 1%;
+  margin-top: 1%;
+  overflow: hidden;
+}
+
+.job__discription ul li {
+  list-style-type: none;
+  margin-top: 0.5%;
+}
+
+.job__discription h2 {
+  color: #757d91;
+  
+}
+
+.job__discription {
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 80%;
+}
+
+.job__discription ul li h2 a {
+  text-decoration: none;
+}
+
+.job__discription ul li h2 a:hover {
+  text-decoration: underline;
+}
+
+.job__rate__post {
+  margin-top: 5%;
+  margin-left: 2%;
+  align-self:end;
+}
+
+.text__bottom {
+  color: #cfd1d8;
+}
+
+.none {
+  display: none;
+}
+
+
+
+
+
+
+.modal__container {
+  
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+
+.bg__detaled__Page {
+  background: #ffffff;
+  width: 100%;
+  
+  
+}
+.container__detaled_page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.content__detaled__page {
+  margin-left: 8%;
+  margin-top: 5%;
+}
+.job__details_div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+  
+}
+
+.job__details__text {
+  color: #384564;
+}
+
+.save__img {
+  width: 1.6%;
+  height: 5%;
+  margin-top: 0.3%;
+  margin-left: 45%;
+}
+
+.save__link {
+  margin-left: 2%;
+  color: #777f93;
+}
+
+.share__link {
+  width: 1.6%;
+  height: 5%;
+  margin-top: 0.1%;
+  margin-left: 10%;
+}
+
+.share__text {
+  margin-left: 2%;
+  color: #777f93;
+}
+
+.job__details_line {
+  width: 82%;
+  height: 0.3%;
+  background:  #f5f6f7;
+}
+.btn__join__now__div {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.btn__join__now {
+  background: #384564;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 2% 5%;
+}
+
+.btn__join__now:hover {
+  cursor: pointer;
+  background: #465069;
+}  
+.job__detaled__tittle__price {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+}
+.job__detaled__tittle {
+  width: 50%;
+  color: #384564;
+}
+.job__detaled__price {
+  color: #384564;
+  margin-left: 20%;
+}
+.job__detail__post__update {
+  margin-bottom: 2%;
+  color: #777f93;
+}
+
+.job__content__description h4 {
+  margin-top: 2%;
+}
+.description__text {
+  
+  width: 50%;
+  margin-top: 2%;
+  
+}
+.job__discription__list {
+  margin-top: 2%;
+}
+
+.job__discription__list li {
+  margin-top: 1%;
+  list-style-type: none;
+}
+.btn__apply__now__div {
+  margin-top: 2%;
+}
+.btn__apply__now {
+  background: #384564;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 2% 5%;
+}
+
+.btn__apply__now:hover {
+  cursor: pointer;
+  background: #465069;  
+} 
+.job__detaled_auditinal__info__div {
+  margin-top: 2%;
+}
+.auditinal__info_tittle {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.auditinal__info__line {
+  width: 80%;
+  margin-bottom: 1%;
+  
+}
+
+.job__detaled__type__div {
+  margin-top: 1%;
+  
+}
+
+.employer__type__for {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1%;
+}
+
+.employer__type__for p {
+  margin-left: 1%;
+  width: 10%;
+  padding: 1% 2%;
+  text-align: center;
+  background: #e1e6f4;
+  border-radius: 3%;
+}
+
+.job__benefits__group {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.benefis__for {
+  display: flex;
+  flex-direction: row;
+}
+
+.benefis__for p {
+  margin-left: 1%;
+  width: 10%;
+  padding: 1% 2%;
+  text-align: center;
+  background: #fff8d9;
+  border-radius: 3%;
+}
+
+.job__detaled__attached__img {
+  margin-top: 5%;
+  
+}
+
+.attached__line {
+  width: 80%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.attached__img__div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1%;
+}
+
+.attached__img__div img {
+  width: 9%;
+  margin-left: 1%;
+}
+.map__detaled_page {
+  margin-top: 5%;
+  margin-left: -10%;
+  border: 1px solid black;
+  padding: 8% 6%;
+  height: 35%;
+  border-radius: 5%;
+  
+}
+.map__img__div {
+
+  
+}
+
+.map__list {
+  
+}
+
+.map__list li {
+  list-style-type: none;
+  
+  
+}
+.map__list__name {
+}
+.map__list__location {
+}
+.map__list__address {
+}
+.map__list__phone {
+}
+.map__list__post {
+}
+.button__back__job__list {
+}
+.btn__back {
+  background: #384564;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 2% 5%;
+  margin-left: -5%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
